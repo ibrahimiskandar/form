@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="/assets/main.js" defer></script>
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="support">
+      <h2><span>Contact Us</span></h2> 
+    <form name="form" action="/action.php" method="post">
+      <label for="">Full Name</label>
+      <input
+        name="firstname"
+        placeholder="First"
+        type="text"
+        required
+        minlength="3"
+        maxlength="50"
+      />
+      <input
+        name="lastname"
+        placeholder="Last"
+        type="text"
+        required
+        minlength="3"
+        maxlength="50"
+      />
+      <label for="">Email</label>
+      <input
+        class="email"
+        name="email"
+        placeholder="mail@example.com"
+        type="email"
+        required
+      />
+      <label for="">Age</label>
+      <input
+        class="age"
+        name="age"
+        type="number"
+        required
+        size="6"
+        name="marks"
+        min="0"
+        max="100"
+      />
+      <input type="submit" value="Submit" class="btn" />
+    </form>
+  </body>
+</html>
